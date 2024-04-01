@@ -1,0 +1,234 @@
+*{
+    font-family: "Frank Ruhl Libre", serif;
+    background-color: #091328;
+}
+body{
+    width: 90%;
+    margin: auto;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin: 0  15px;
+}
+.navbar span{
+    color: #DAA061;
+}
+.resume button{
+    border: 1px solid #DAA061;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+.resume a{
+    text-decoration: none;
+    color: white;
+}
+#about{
+    margin:50px 0;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+.profil{
+    width: 45%;
+}
+.profil img{
+    width: 80%;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+.content-a{
+    width: 55%;
+    text-align:right;
+    align-self: center;
+    color: white;
+    padding: 30px;
+}
+.content-a div{
+    font-size: 60px;
+}
+.big{
+    color: #DAA061;
+    font-weight: bold;
+}
+#study,#project{
+    width: 90%;
+    margin:50px 0;
+    display: block;
+    text-align: end;
+}
+.title-s,.title-t,.title-p{
+    color: white;
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+.title-s span,.title-t span,.title-p span{
+    color: #DAA061;
+}
+.content-s p{
+    color: #DAA061;
+}
+.small{
+    font-size: 16px;
+    color: white;
+}
+#training{
+    width: 92%;
+    margin:50px 0;
+}
+.content-t,.content-p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    width: 30%;
+    height:550px;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.card p{
+    color: white;
+    height: 60px;
+}
+.card h2, .card p,.small{
+    padding:10px 10px ;
+}
+.bg{
+    height: 50%;
+    width: 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+}
+.bg:hover{
+    opacity: 1;
+}
+.t1,.t2,.t3{
+    background-image: url('/assets/image/bg-training.png');
+}
+.p1{
+    background-image: url('/assets/image/p1.png');
+}
+.p2{
+    background-image: url('/assets/image/p2.png');
+}
+.p3{
+    background-image: url('/assets/image/p3.png');
+}
+.p4{
+    background-image: url('/assets/image/p4.png');
+}
+.p5{
+    background-image: url('/assets/image/p5.png');
+}
+.p6{
+    background-image: url('/assets/image/p6.png');
+}
+h2{
+    color: #DAA061;
+    height: 50px;
+}
+.sertif,.p{
+    width: 50%;
+    display: block;
+    border: 1px solid #DAA061;
+    border-radius: 15px;
+    padding: 10px 15px;
+    margin:20px auto;
+    
+}
+.sertif a,.p a{
+    color: #DAA061;
+    text-decoration: none;
+}
+.contact{
+    position: fixed;
+    right: 50px;
+    bottom: 25px;
+}
+.contact img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 15px;
+}
+footer{
+    width: 90%;
+    color: white;
+    text-align: center;
+    padding-bottom: 25px;
+}
+@media screen and (max-width: 768px){
+    header,#about,.content-t,.content-p{
+        display: block;
+        width: 90%;
+        text-align: center;
+        margin: auto;
+    }
+    .navbar{
+        margin-bottom: 25px;
+    }
+    .profil img{
+        width: 70%;
+    }
+    .profil,.content-a{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .content-a div{
+        font-size: 35px;
+        padding-bottom: 15px;
+    }
+    .content-a div,.content-a p{
+        width: 80%;
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    #study,#project,#training{
+        width: 90%;
+        display: block;
+        text-align: center;
+        margin: auto;
+        padding-top: 40px;
+    }
+    .card{
+        width: 70%;
+        margin: 20px auto ; 
+    }
+    .contact{
+        right: 25px;
+    }
+    footer{
+        width: 90%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 1024px){
+    body{
+        width: 90%;
+        margin: auto;
+    }
+    .card{
+        width: 45%;
+    }
+    .contact{
+        right: 20px;
+    }
+}
+
+
