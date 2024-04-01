@@ -129,25 +129,25 @@ header {
 .t1,
 .t2,
 .t3 {
-  background-image: url("/assets/bg-training.png");
+  background-image: url("assets/bg-training.png");
 }
 .p1 {
-  background-image: url("/assets/p1.png");
+  background-image: url("assets/p1.png");
 }
 .p2 {
-  background-image: url("/assets/p2.png");
+  background-image: url("assets/p2.png");
 }
 .p3 {
-  background-image: url("/assets/p3.png");
+  background-image: url("assets/p3.png");
 }
 .p4 {
-  background-image: url("/assets/p4.png");
+  background-image: url("assets/p4.png");
 }
 .p5 {
-  background-image: url("/assets/p5.png");
+  background-image: url("assets/p5.png");
 }
 .p6 {
-  background-image: url("/assets/p6.png");
+  background-image: url("assets/p6.png");
 }
 h2 {
   color: #daa061;
